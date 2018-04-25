@@ -1,0 +1,144 @@
+body{
+	margin: 0 auto;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background-color: #ededed;
+  }
+.container{
+ 	padding: 20px;
+	background-color: #ededed;
+	width: 960px;
+	margin: 0 auto;
+}
+#header{
+	width: 100%;
+	background-color: #ffffff;
+ 	text-align: center;
+ 	margin-top: 30px;
+ }
+.img-header{
+	width:140px; 
+	height:140px;
+	border-radius: 50%;
+	position: relative;
+	bottom: 20px;
+	border: 8px solid #ededed; 
+ }
+.content-left, 
+.content-right {
+	background-color: #ffffff;
+	box-sizing: border-box;
+ 	float: left;
+ 	padding: 0px 20px 20px 20px;
+  }
+.content-left{
+ 	width: 70%;
+ }
+.content-right{
+ 	width: 30%;
+}
+
+.titulos{
+	color: #E4A3FF;
+	font-weight: bold;
+	margin:0;
+}
+.titulo-header{
+	color: #444444;
+	font-weight: bold;
+	margin:0;
+}
+.fecha{
+	width: 10%;
+	float: left;
+}
+.cont-fecha{
+	width: 90%;
+	float: left;
+	padding: 20px 0px;
+	background-color: #ededed;
+	margin-bottom: 10px;
+ }
+.html{
+	width: 180px;
+	height: 20px;
+	background-color: #E80CB6;
+	margin-bottom: 10px;
+	padding: 5px;
+    color: #ffffff; 
+}
+.css{
+	width: 160px;
+	height: 20px;
+	background-color: #E80CB6;
+	margin-bottom: 10px;
+	padding: 5px;
+    color: #ffffff;
+}
+.mailing{
+	width: 140px;
+	height: 20px;
+	background-color: #E80CB6;
+	margin-bottom: 10px;
+	padding: 5px;
+    color: #ffffff;
+}
+.javascript{
+	width: 120px;
+	height: 20px;
+	background-color: #E80CB6;
+	margin-bottom: 10px;
+	padding: 5px;
+    color: #ffffff;
+}
+
+li.repo, li.foto {
+    width: 40%;
+    background-color: pink;
+    padding: 4px;
+    border-radius: 4px;
+    text-align: center;
+    display: inline;
+    color: #444444;
+}
+.full{
+	font-size: 14px;
+	color: #940774;
+}
+.empty{
+	font-size: 14px;
+	color: #E4A3FF;
+}
+.row{
+	clear: both;
+}
+ul li{
+	list-style: none;
+}
+.col-md-1{
+	width: 20%;
+	float: left;
+}
+.col-md-2{
+	width: 40%;
+	float: left;
+}
+.col-md-3{
+	width: 60%;
+	float: left;
+}
+.col-md-4{
+	width: 100%;
+	float: left;
+ }
+
+
+@media (max-width: 480px){
+	.col-sm-1{
+		float: left;
+		width: 100%;
+	}
+
+	#container{
+		width: 100%;
+	}
+}
